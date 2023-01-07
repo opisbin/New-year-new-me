@@ -1,0 +1,279 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'work sans';
+}
+.btn-primary{
+    color: #005FAC;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 20px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 60px;
+}
+ /* BANNER STYLE */
+ header{
+     background: url(../images/banner/banner3.png);
+     background-repeat: no-repeat;
+     background-size: auto;
+     background-color: #005FAC;
+ }
+ .banner{
+     text-align: right;
+     margin-right: 200px;
+     padding-top: 200px;
+     padding-bottom: 200px;
+     margin-bottom: 130px;
+ }
+ .banner-title{
+    font-size: 65px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 24px;
+ }
+ .banner-description{
+    font-size: 16px;
+    color: #FFFFFF;
+    font-weight: 400;
+    margin-bottom: 32px;
+ }
+
+ /* MAIN AREA STYLE */
+ main{
+     margin-left: 200px;
+     margin-right: 100px;
+ }
+
+ /* MY FAILURES OF PREVIOUS STYLE */
+ .failures-of-previous{
+     display: flex;
+     gap: 80px;
+ }
+ .failures-of-previous-contain{
+     margin-top: 300px;
+ }
+ .failures-of-previous-contain ul{
+    list-style: none;
+ }
+ 
+ .failures-of-previous-contain ul li{
+    margin-bottom: 10px;
+ }
+ .failures-of-previous-contain ul li i{
+     color: #16D887;
+ }
+
+ .section-title{
+    color: #151414;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.description{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.section-heading{
+    font-weight: 700;
+    font-size: 40px;
+    color: #fff;
+    margin-bottom: 24px;
+ }
+
+ /* MY PLANS */
+ .my-plans{
+     text-align: center;
+     margin-top: 120px;
+ }
+ .plan-item-container{
+     display: flex;
+     gap: 80px;
+ }
+ .plan-item h2{
+    font-weight: 700;
+    font-size: 30px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+ }
+ .plan-item p{
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    color: #737272;
+ }
+ /* CALL NOW STYLE */
+ .call-now{
+     background-image: url(../images/gradient1.png), url(../images/watch.png);
+     background-repeat: no-repeat;
+     background-size: contain;
+     margin-top: 130px;
+     margin-bottom: 130px;
+     border-radius: 8px;
+ }
+ .call-now-content{
+     margin-left: 64px;
+     padding-top: 60px;
+ }
+ /* FOOTER AREA STYLE */
+ footer{
+    background:#151414;
+
+ }
+.footer-container{
+    display: flex;
+    gap:300px;
+    padding: 200px;
+
+}
+.future-description{
+    color: #fff;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.email{
+    color: #fff;
+    margin-bottom: 20px;
+}
+.phone{
+    color: #fff;
+    margin-bottom: 30px;
+}
+.icon{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+/* Contact me style */
+.subscribe h2{
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.subscribe input[type="email"]{
+    padding: 20px;
+    width: 88%;
+    border: white solid 1px;
+    outline: none;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    font-size: 18px;
+    border-color: white;
+}
+.subscribe-button{
+    background: #005FAC;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 8px;
+    padding: 20px;
+    width: 100%;
+    border: none;
+}
+#e-mail{
+    color: white;
+}
+.title
+{
+    font-size: 50px;
+    font-weight: bold;
+    padding: 1.5% 0;
+    text-align: center;
+}
+
+.title-info
+{
+	padding-bottom: 2%;
+    text-align: center;
+}
+
+.form
+{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    padding: 2%;
+    margin: auto;
+}
+
+.input-group, .textarea-group
+{
+    padding: 1% 0;
+}
+
+input, textarea
+{
+    color: inherit;
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #757575;
+    padding: 1.5%;
+    font-size: 20px;
+}
+
+input:focus, textarea:focus
+{
+    background-color: transparent;
+    outline: transparent;
+    border-bottom: 2px solid #69f0ae;
+}
+
+input::placeholder, textarea::placeholder
+{
+    color: transparent;
+}
+
+label
+{
+    color: #757575;
+    position: relative;
+    left: 0.5em;
+    top: -2em;
+	cursor: auto;
+    transition: 0.3s ease all;
+}
+
+input:focus ~ label, input:not(:placeholder-shown) ~ label
+{
+    top: -4em;
+    color: #69f0ae;
+    font-size: 15px;
+}
+
+textarea:focus ~ label, textarea:not(:placeholder-shown) ~ label
+{
+    top: -10.5em;
+    color: #69f0ae;
+    font-size: 15px;
+}
+
+.button-div
+{
+    display: flex;
+    justify-content: center;
+}
+
+.button-contact
+{
+    padding: 2%;
+    width: 50%;
+    border: 1px solid;
+    border-color: #212121;
+    border-radius: 5px;
+    font-family: inherit;
+    font-size: 18px;
+    background-color: black;
+    color: inherit;
+    box-shadow: 0 0 10px #212121;
+}
+
+button:hover
+{
+    background-color: #424242;
+    color: #69f0ae;
+    cursor: pointer;
+}
